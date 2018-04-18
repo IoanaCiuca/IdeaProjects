@@ -10,3 +10,9 @@ tets/build/
 tets/settings.gradle
 tets/gradlew.bat
 tets/gradlew
+*.bin
+*.idea/
+*.gradle/
+*.build/
+*.settings.gradle
+*.gradlew
