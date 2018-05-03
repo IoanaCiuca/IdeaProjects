@@ -1,32 +1,40 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class AppNumber {
 
     public ArrayList<Integer> convertStringToInt(String givenString) {
-        ArrayList<Integer> resultedArray = new ArrayList<>();
+        ArrayList<Integer> result=new ArrayList<>();
+        int index =0;
+        StringBuilder sb = new StringBuilder();
 
-        int index = 0;
-        //ar trebui sa merg pana la length - 1, dar cum o stiu care e ultimul caracter?
-        //Poate fi o cifra a unui numar, doar o cifra sau un spatiu
-        while(index<givenString.length()) {
-            if(givenString.charAt(index) != ' ' && givenString.charAt(index+1) == ' ') {
-                resultedArray.add(Character.getNumericValue(givenString.charAt(index)));
-            } else if(givenString.charAt(index) != ' ' && givenString.charAt(index+1) != ' ') {
-                String str = "";
-                while(index != ' ') {
-                    StringBuilder sb = new StringBuilder();
-                    sb.append(givenString.charAt(index));
-                    str = sb.toString();
-                    index++;
-                }
-                resultedArray.add(Integer.parseInt(str));
+        while (index< givenString.length()) {
+            while (index<givenString.length()  && givenString.charAt(index) != ' ' && givenString.charAt(index) != '\r' && givenString.charAt(index) != '\n') {
+                sb.append(givenString.charAt(index));
+                index++;
             }
+            if(sb.length() != 0)
+                result.add(Integer.parseInt(sb.toString()));
+            sb.delete(0,sb.length());
             index++;
         }
-        return null;
+        return result;
     }
 
-    private void concatenateChars(char a, char b) {
+    public HashMap<Integer, Integer> countElements(ArrayList<Integer> inputList) {
 
+        HashMap<Integer, Integer> result = new HashMap<>();
+        for(int i=0; i<inputList.size() ;i++) {
+            if(!result.containsKey(inputList.get(i)))
+                result.put(inputList.get(i), 1);
+            else {
+                int value = result.get(inputList.get(i));
+                value++;
+                result.put(inputList.get(i), value);
+            }
+        }
+
+        return result;
     }
+
 }
