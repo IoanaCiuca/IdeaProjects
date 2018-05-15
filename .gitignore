@@ -84,3 +84,10 @@ Var02_2008_sbIII_pb4/gradlew
 Var02_2008_sbIII_pb4/settings.gradle
 Var06_2007_pb2/gradlew
 Var06_2007_pb2/settings.gradle
+HotelManagementAppV2/.mvn/wrapper/maven-wrapper.jar
+HotelManagementApp/src/main/java/app/controller/UserController.java
+HotelManagementApp/src/main/java/app/HotelManagementApplication.java
+HotelManagementApp/src/main/java/app/model/User.java
+HotelManagementApp/src/main/java/app/repository/UserRepository.java
+HotelManagementApp/src/main/java/app/service/UserService.java
+HotelManagementApp/src/test/java/app/HotelManagementApplicationTest.java
