@@ -36,7 +36,6 @@ Var05_2007_sbIII_pb2/out/production/classes/Main.class
 Var05_2007_sbIII_pb2/out/production/classes/SubMethod.class
 Var05_2007_sbIII_pb2/out/test/classes/SubMethodTest.class
 Var05_2007_sbIII_pb2/settings.gradle
-*.xml
 Var05_2007_sbIII_pb3/gradlew
 Var05_2007_sbIII_pb3/out/production/classes/DoubleLetter.class
 Var05_2007_sbIII_pb3/out/test/classes/DoubleLetterTest.class
@@ -91,3 +90,7 @@ HotelManagementApp/src/main/java/app/model/User.java
 HotelManagementApp/src/main/java/app/repository/UserRepository.java
 HotelManagementApp/src/main/java/app/service/UserService.java
 HotelManagementApp/src/test/java/app/HotelManagementApplicationTest.java
+HotelManagementAppV2/.mvn/wrapper/maven-wrapper.jar
+HotelManagementAppV2/mvnw
+HotelManagementAppV2/mvnw.cmd
+*.jar
