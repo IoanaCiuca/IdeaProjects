@@ -29,7 +29,6 @@ Varianta03_2007_sbIII_pb2/.idea/encodings.xml
 Varianta03_2007_sbIII_pb2/.idea/compiler.xml
 Varianta03_2007_sbIII_pb2/.idea/encodings.xml
 *.jar
-*.properties
 Var05_2007_sbIII_pb2/gradlew
 *.bat
 Var05_2007_sbIII_pb2/out/production/classes/Main.class
@@ -94,3 +93,19 @@ HotelManagementAppV2/.mvn/wrapper/maven-wrapper.jar
 HotelManagementAppV2/mvnw
 HotelManagementAppV2/mvnw.cmd
 *.jar
+HotelManagementAppV2/.mvn/wrapper/maven-wrapper.properties
+Var01_2008_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var01_2008_sbIII_pb4/gradle/wrapper/gradle-wrapper.properties
+Var02_2008_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var02_2008_sbIII_pb4/gradle/wrapper/gradle-wrapper.properties
+Var04_2007_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var05_2007_sbIII_pb2/gradle/wrapper/gradle-wrapper.properties
+Var05_2007_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var06_2007_pb2/gradle/wrapper/gradle-wrapper.properties
+Var06_2007_sbIII_pb1/gradle/wrapper/gradle-wrapper.properties
+Var06_2007_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var07_2007_sbIII_pb1/gradle/wrapper/gradle-wrapper.properties
+Var08_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var09_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
+Var10_2007_sbIII_pb1/gradle/wrapper/gradle-wrapper.properties
+Var10_sbIII_pb3/gradle/wrapper/gradle-wrapper.properties
