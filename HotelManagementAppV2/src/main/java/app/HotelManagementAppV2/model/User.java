@@ -27,11 +27,15 @@ public class User {
             @JoinColumn(name = "ROLE_ID", referencedColumnName = "id") })
     private List<Role> roles;
 
-    public User(@NotEmpty String name, @NotEmpty String email, @Size(min = 4) String password, List<Role> roles) {
+    public User(@NotEmpty String name, @NotEmpty String email, @Size(min = 4) String password) {
         this.name = name;
         this.email = email;
         this.password = password;
         this.roles = roles;
+    }
+
+    public User() {
+
     }
 
     public int getId() {
