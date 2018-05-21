@@ -39,4 +39,11 @@ public class UserService {
     public Optional<User> getUser(int id) {
         return userRepository.findById(id);
     }
+
+    public boolean isUserPresent(String email) {
+        User user = userRepository.findByEmail(email);
+        if(user != null)
+            return true;
+        return false;
+    }
 }
