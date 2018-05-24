@@ -8,6 +8,12 @@ public class IndexController {
 
     @GetMapping("/")
     public String showIndexPage() {
+
         return "index";
+    }
+
+    @GetMapping("/login")
+    public String showLoginForm() {
+        return "views/loginForm";
     }
 }
